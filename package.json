@@ -1,0 +1,29 @@
+{
+	"name": "24-cookies-session",
+	"version": "1.0.0",
+	"description": "Desafio entregable de la clase 24 del curso Programacion Backend en CoderHouse",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "module",
+	"dependencies": {
+		"bcrypt": "^5.0.1",
+		"cookie-parser": "^1.4.6",
+		"dotenv": "^16.0.2",
+		"express": "^4.18.1",
+		"express-session": "^1.17.3",
+		"mongoose": "^6.5.5",
+		"passport": "^0.6.0",
+		"passport-local": "^1.0.0",
+		"pug": "^3.0.2",
+		"yargs": "^17.5.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.19"
+	}
+}
